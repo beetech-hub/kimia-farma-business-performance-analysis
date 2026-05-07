@@ -76,4 +76,4 @@ SQL query:
 
 ## Interactive Dashboard
 
-(Add Looker Studio link here later)
+[View Dashboard Here]([LINK_LOOKER_STUDIO](https://datastudio.google.com/reporting/35ca2860-6c0a-422b-9740-c442b4b56d57))
