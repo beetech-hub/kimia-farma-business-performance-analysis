@@ -9,6 +9,7 @@ Business performance analysis project using BigQuery and Looker Studio for evalu
 This project aims to analyze Kimia Farma business performance based on transaction, branch, and product data.
 
 The analysis focuses on:
+
 - Revenue trend
 - Profit performance
 - Top-performing branches
@@ -30,10 +31,11 @@ The analysis focuses on:
 ## Dataset
 
 The datasets used in this project:
-- kf_final_transaction
-- kf_inventory
-- kf_kantor_cabang
-- kf_product
+
+- `kf_final_transaction`
+- `kf_inventory`
+- `kf_kantor_cabang`
+- `kf_product`
 
 ---
 
@@ -42,25 +44,27 @@ The datasets used in this project:
 The analysis table was created using BigQuery SQL by joining transaction, branch, inventory, and product tables.
 
 Main calculations:
+
 - Nett Sales
 - Nett Profit
 - Gross Profit Percentage
 
 SQL query:
+
 - `kf_analysis_query.sql`
 
 ---
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+<img src="images/dashboard_preview.png" width="1200">
 
 ---
 
 ## Key Insights
 
 - Revenue remained relatively stable around Rp86–87B annually without significant growth.
-- Sales and profits were concentrated in several branches, especially in Java region.
+- Sales and profits were concentrated in several branches, especially in the Java region.
 - Psycholeptics category contributed significantly to both revenue and profit.
 - Several branch types dominated transaction activities, especially Apotek and Klinik & Apotek.
 
@@ -75,5 +79,7 @@ SQL query:
 ---
 
 ## Interactive Dashboard
+
+Explore the interactive dashboard here:
 
 [View Dashboard Here](https://datastudio.google.com/reporting/35ca2860-6c0a-422b-9740-c442b4b56d57)
