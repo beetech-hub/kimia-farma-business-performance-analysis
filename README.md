@@ -53,7 +53,7 @@ SQL query:
 
 ## Dashboard Preview
 
-(Add dashboard screenshot here later)
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
